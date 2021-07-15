@@ -19,7 +19,7 @@ public class CrudWithVaadinApplication {
 	@Bean
 	public CommandLineRunner loadData(CustomerRepository repository) {
 		return (args) -> {
-			String excelPath = "E:/IntelliJ/New folder/gs-crud-with-vaadin-main/complete/excel/my-excel.xlsx";
+			String excelPath = "C:/Users/geeri/Desktop/GithubProject/github-vaadin-project/gs-crud-with-vaadin-main/complete/excel/my-excel.xlsx";
 			String sheetName = "Sheet0";
 			ExcelUtils excel = new ExcelUtils(excelPath, sheetName);
 
